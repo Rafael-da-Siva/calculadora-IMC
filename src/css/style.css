@@ -1,0 +1,34 @@
+/* tag Body */
+.corpo{
+    background-color: rgba(228, 228, 228, 0.507);
+}
+/* tag Header */
+.cabecalho{
+    border: 2px solid black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* tag div */
+.titulo{
+    background-color: rgb(160, 160, 160);
+
+}
+.resultado{
+    background-color: rgb(160, 160, 160);
+
+}
+.consulta{
+    text-align: center;
+    background-color: rgb(160, 160, 160);
+}
+
+/* tag Table */
+.tabela1, tr, td{
+    border: 1px solid black;
+}
+/* tag H2 */
+.tabelaIMC{
+    text-align: center;
+}
+

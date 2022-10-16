@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Link css -->
+    <link rel="stylesheet" href="./src/css/style.css">
+<!-- Titulo da página -->
+    <title>Calculadora IMC</title>
+</head>
+
+<body class="corpo">
+    
+<!-- Título do trabalho -->
+    <header class="cabecalho">
+        <h1><ins>Calculadora IMC</ins></h1>
+    </header>
+
+<!-- Sub título -->
+    <div class="titulo">
+        <h3>Calcule seu IMC</h3>
+    </div>
+
+<!-- Onde o usuario coloca seus dados -->
+    <table class="tabela1" >
+        <tbody>
+            <tr>         
+                <td><ins>Peso</ins>:<input type="number" placeholder="Peso ex: 55kg" id="peso"></td>
+                <td><ins>Altura</ins>:<input type="number" placeholder="Altura ex: 1.65" id="altura"></td>
+                <td><button id="button">Calcular</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+<!-- Resultado da calculo de IMC -->
+    <div class="resultado">
+        <h3>Resultado</h3>
+    </div>
+    IMC = <input type="text" id="resultado">
+
+<!-- Tabela para o usuario consultar seu IMC -->
+    <h2 class="consulta" ><ins>Consulte se você está no peso ideal, segundo a tabela de IMC.</ins></h2>
+    <div class="tabelaIMC">
+        <img src="src/img/IMC.webp" alt="Tabela de IMC">
+    </div>
+
+<!-- Parte funcional do site -->
+<script src="./src/js/imc.js" ></script>
+
+<!-- fim -->
+</body>
+</html>
